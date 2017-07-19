@@ -132,10 +132,10 @@ npm update
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "ducknote",
+"coin": "lakran",
 
 /* Used for front-end display */
-"symbol": "XDN",
+"symbol": "LAK",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinUnits": 100000000,
@@ -417,7 +417,7 @@ var api = "http://poolhost:8117";
 var poolHost = "poolhost.com";
 
 /* IRC Server and room used for embedded KiwiIRC chat. */
-var irc = "irc.freenode.net/#ducknote";
+var irc = "irc.freenode.net/#lakran";
 
 /* Contact email address. */
 var email = "support@poolhost.com";
