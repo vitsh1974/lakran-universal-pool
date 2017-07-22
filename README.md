@@ -512,3 +512,19 @@ License
 Released under the GNU General Public License v2
 
 http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+
+
+
+apt-get update -y
+apt-get upgrade -y
+apt-get install -y git redis-server libboost1.55-all-dev?????? cmake libssl-dev gcc build-essential libssl-dev
+git clone https://github.com/zone117x/node-cryptonote-pool.git pool
+wget https://nodejs.org/dist/v0.10.48/node-v0.10.48.tar.gz && tar xvzf node-v0.10.48.tar.gz
+cd node-v0.10.48
+make
+make install
+cd ~/pool
+npm update
